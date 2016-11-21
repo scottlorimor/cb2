@@ -1,0 +1,76 @@
+* {
+	box-sizing:  border-box;
+}
+
+body {
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color: #3498dc;
+	text-align: center;
+	font-family: HelveticaNeue;
+	color: #ffffff;
+}
+
+.logo {
+	margin-bottom: 5%;
+	margin-top: 2.5%;
+}
+
+.header-1 {
+	margin-top: 15%;
+	font-size: 30px;
+}
+
+.content {
+	font-size: 18px;
+}
+
+.center-image {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.ig-container {
+	position: fixed;
+	bottom: 5%;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 262px;
+	border-radius: 4px;
+	border: solid 2px #ffffff;
+}
+
+.connect-ig {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+	/* For desktop: */
+	body {
+		background-color: orange;
+	}
+	.header-1 {
+		margin-top: 5%;
+		font-size: 30px;
+	}
+	.content {
+		width: 40%;
+		margin: 0 auto;
+	}
+
+	.ig-container {
+		position: relative;
+		margin: 0 auto;
+
+	}
+
+	.center-image {
+		margin-top: 5%;	
+		margin-bottom: 5%;
+	}
+ }
+
+
+
